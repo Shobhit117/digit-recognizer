@@ -30,7 +30,7 @@ def get_mnist_data(validation_size=2000):
 	return (train_images,train_labels),(validation_images,validation_labels)
 
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, Dropout, Activation, Flatten
+from keras.layers import Dense, Dropout, Activation, Flatten
 from keras.layers import Convolution2D, MaxPooling2D
 
 if __name__ == '__main__':
