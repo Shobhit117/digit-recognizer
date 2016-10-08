@@ -1,7 +1,7 @@
 # Digit Recognizer
-This is an implementation of a convolutional neural network for recognizing hand written digits using the MNIST dataset. A validation accuracy of about 99.3% is obtained after training for 11 epochs. The model architecture and weights are saved in files `model_architecture.json` and `model_weights.h5` respectively. 
+This is an implementation of a convolutional neural network for recognizing hand written digits using the MNIST dataset. A validation accuracy of about 99.3% is obtained after training for 11 epochs. The model architecture and weights are saved in the files `model_architecture.json` and `model_weights.h5`. 
 
-To train the model run `train.py`. The file `test.py` generates a file `predictions.csv` which contains the predicted labels to the images in the test set. This file can be used for submission at Kaggle. `display_random.py` displays the 25 random images from the test set along with their predicted labels. Here is an example.
+To train the model run `train.py`. The file `test.py` generates a file `predictions.csv` which contains the predicted labels to the images in the test set. This file can be used for submission at Kaggle. `display_random.py` displays 25 random images from the test set along with their predicted labels. Here is an example.
 
 <img src="https://github.com/Shobhit117/digit-recognizer/blob/master/figure_1.png" height=300px width=400px>
 
